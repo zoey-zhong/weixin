@@ -1,0 +1,145 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.swiper-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.midel {
+	width:60%;
+  position: absolute;
+  top: 5%;
+  left: 22%; 
+}
+
+.word{
+	width:50%;
+  position: absolute;
+  top: 62%;
+  left: 29%; 
+}
+
+.icon{
+	width:10%;
+  position: absolute;
+  top: 92%;
+  left: 50%; 
+}
+.word2{
+	width:40%;
+  position: absolute;
+  top: 8%;
+  left: 35%; 
+}
+.peple1{
+	width:70%;
+  position: absolute;
+  bottom: 8%;
+  left: 20%; 
+}
+.circle1{
+	width:70%;
+  position: absolute;
+  bottom: 5%;
+  left: 20%; 
+}
+.float1{
+	width:70%;
+  position: absolute;
+  bottom: 5%;
+  left: 20%
+}
+
+.peple2{
+	width:50%;
+  position: absolute;
+  bottom: 5%;
+  left: 36%; 
+}
+
+.float2{
+	width:70%;
+  position: absolute;
+  bottom: 22%;
+  left: 20%
+}
+
+.circle2{
+	width:70%;
+  position: absolute;
+  bottom: 13%;
+  left: 20%; 
+}
+.circle3{
+	width:70%;
+  position: absolute;
+  bottom: 8%;
+  left: 20%; 
+}
+
+
+.peple3{
+	width:50%;
+  position: absolute;
+  bottom: 12%;
+  left: 36%; 
+}
+
+.float3{
+	width:70%;
+  position: absolute;
+  bottom: 20%;
+  left: 20%
+}
+
+.pg1{
+	width:85%;
+  position: absolute;
+  bottom: 10%;
+  left: 10%
+}
+
+.btn1{
+	width:70%;
+  position: absolute;
+  bottom: 20%;
+  left: 20%
+}
+
+
+
+.pg5{
+	width:80%;
+  position: absolute;
+  bottom: 25%;
+  left: 10%
+}
+
+.btn2{
+	width:75%;
+  position: absolute;
+  bottom: 23%;
+  left: 13%
+}
+
+.music{
+	position: fixed;
+	top:5%;
+	right:2%;
+	z-index: 100;
+	animation: move 3s linear infinite both;
+}
+
+@keyframes move{
+	from{transform: rotate(0);}
+	to{transform: rotate(720deg);}
+}
